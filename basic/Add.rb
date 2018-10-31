@@ -14,7 +14,7 @@ class Add < Struct.new(:left, :right)
   end
 
   def to_s
-    "#{left} * #{right}"
+    "#{left} + #{right}"
   end
 
   def inspect
